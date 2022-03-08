@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with-device-width, initial-scale=1.0">
+        <title>Gyan Universe</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                 <a href=""><img src="img/Qlogo.png" alt=""></a>
+                 <div class="nav-links" id="navlinks">
+                     <i class="fa fa-times" onclick="hidemenu()"></i>
+                     <ul>
+                         <li><a href="univ.html">Home</a></li>
+                         <li><a href="about.html">About</a></li>
+                         <li><a href="course.html">Course</a></li>
+                         <li><a href="blog.html">Blog</a></li>
+                         <li><a href="contact.html">Contact</a></li>
+                     </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>Gyan Universe</h1>
+                <p>A Department of Computer Science that lets you connected<br> with your innerself..</p>
+                <a class="hero-btn" href="https://quantumuniversity.edu.in/">For Quantum University Visit More</a>
+
+            </div>
+        </section>
+        <!-- course -->
+        <section class="course">
+            <h1>Courses</h1>
+            <p></p> 
+            <div class="row">
+                <div class="course-col">
+                    <h3>Web Development</h3>
+                    <p>Web Development is the work involved in developing a website for the internet. Web Development can range from developing a simple single static pages of plain text to complex web applications, electronic bussiness, and social network services.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Android Development</h3>
+                    <p>Android software development is the process by which applications are created for devices running the Android operating system. Google states that "Android apps can be written using Kotlin, Java, and C++ languages" using the Android software development kit (SDK), while using other languages is also possible.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Designing</h3>
+                    <p>A design course a course that focuses on the area of designing and introduce students to fundamentals of design as they are applied to different segments of the industry. During their studies, a design course students can obtain several applicable skills</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- facilities -->
+        <section class="facilities">
+            <h1>Our facilities</h1>
+            <p></p>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="img/Qlab1.jpg">
+                    <h3>Computer Labs </h3>
+                    <p>Well-designed and separate computer labs for students, with one-on-one access, which means there is one computer for each student. </p>
+                </div>
+                <div class="facilities-col">
+                    <img src="img/Qlab2.png">
+                    <h3>Instructor</h3>
+                    <p>Our instructor help you to learn different computer-related skills based on grade level and may teach you advanced programs and computer analysis</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="img/Qlab3.webp">
+                    <h3>E-learning programs</h3>
+                    <p>We provides many online courses so that student may learn anytime, anywhere across from the world </p>
+                </div>
+            </div>
+        </section>
+        <!-- testimonials -->
+        <section class="testimonials">
+            <h1>What Our Students Says</h1>
+            <p></p>
+            <div class="row">
+                <div class="testimonials-col">
+                    <img src="img/user1.jpg">
+                    <div>
+                        <p>Great and valuable knowledge to perform on job. The instruction was very thorough and practical; special thanks to the instructor. The mastering of the computer concept and applications is the key to effective office productivity.</p>
+                        <h3>sagar</h3>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                </div>
+                <div class="testimonials-col">
+                    <img src="img/Quser1.jpeg">
+                    <div>
+                        <p>By joining in this course, I have enjoyed and  learned many new things which I have not learned before. I have learned about presenting new ideas, time management, organization, research, decision making, persuasion, networking and improved knowledge.</p>
+                        <h3>Aashish Kumar</h3>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star-half-o checked"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- call to action -->
+        <section class="cta">
+            <h1>Enroll For Our Various Online Courses<br> Anyware from The world</h1>
+            <a href="online.html" class="hero-btn">CONTACT US</a>
+        </section>
+        <!-- footer  -->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>The mission of the Department of Computer Science is to advance the knowledge of computer science and technology through education,<br> research, and service for the betterment of society.</p>
+            <div class="icons">
+                <a href="https://www.facebook.com/quantumuniversity.edu.in/"><i class="fa fa-facebook"></i></a>
+                <a href="https://en.wikipedia.org/wiki/Quantum_University"><i class="fa fa-wikipedia-w"></i></a>
+                <a href="https://www.instagram.com/QuantumUniversity/"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/school/quantum-university-india"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <p>Made With <i class="fa far fa-heart"></i>By Team Revengers</p>    
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- java script for toggle menu -->
+        <script>
+            var navlinks = document.getElementById("navlinks");
+            function hidemenu(){
+                navlinks.style.right = "-200px";
+            }
+            function showmenu(){
+                navlinks.style.right = "0";
+            }
+        </script>
+    </body>
+</html>

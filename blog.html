@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with-device-width, initial-scale=1.0">
+        <title>University Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                 <a href=""><img src="img/Qlogo.png" alt=""></a>
+                 <div class="nav-links" id="navlinks">
+                     <i class="fa fa-times" onclick="hidemenu()"></i>
+                     <ul>
+                        <li><a href="univ.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="course.html">Course</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                     </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <h1>Our Certificate And Online Programs For 2022</h1>
+        </section>
+        <!-- ----Blog Page Content -->
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="img/certificate.jpg">
+                    <h2>Our Certificate And Online Programs For 2022</h2>
+                    <p>The foundations of computer science course includes topics like algorithms and how to master their performance. Learn about data structures like LinkedLists, Stacks, Queues, Trees, and Graphs. Students must have a basic understanding of high school concepts and high school mathematics before opting for the course.</p>
+                    <br>
+                    <p>This course aims to get you started with one of the most popular programming languages nowadays. You will learn the basics of programming step by step using Python. Explore the techniques of constructing a program, from a series of simple instructions. As no advanced mathematics or coding knowledge is required, therefore the classes can be taken by pretty much anyone interested.</p>
+                    <br>
+                    <p>This machine learning course offers Introduction to machine learning, data mining, and statistical pattern recognition. The course will also help you to draw from numerous case studies and applications. You will also learn about applying algorithms to create smart robots, medical informatics, audio database mining, and various other areas.</p>
+                    <br>
+                    <p>This course will help you to understand the best practices for building top-notch apps with the help of Android Architecture Components for data persistence and display. Instructor David Gassner takes you through the concepts in a real-world context by building a simple note-taking app from the very beginning to the end</p>
+                    <div class="comment-box">
+                        <h3>Leave a Comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="Your Comment"></textarea>
+                            <button type="submit" class="hero-btn red-btn">POst COMMENT</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="blog-right">
+                    <h3>Post Categories</h3>
+                    <div>
+                        <span>Data analysis</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Data Science</span>
+                        <span>28</span>
+                    </div>
+                    <div>
+                        <span>Artificial Intelligence</span>
+                        <span>15</span>
+                    </div>
+                    <div>
+                        <span>Computer Graphics</span>
+                        <span>34</span>
+                    </div>
+                    <div>
+                        <span>Cyber Security</span>
+                        <span>42</span>
+            
+                    </div>
+                    <div>
+                        <span>Internet Technology</span>
+                        <span>22</span>
+                    </div>
+                    <div>
+                        <span>Business Analytics</span>
+                        <span>30</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer  -->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>The mission of the Department of Computer Science is to advance the knowledge of computer science and technology through education,<br> research, and service for the betterment of society.</p>
+            <div class="icons">
+                <a href="https://www.facebook.com/quantumuniversity.edu.in/"><i class="fa fa-facebook"></i></a>
+                <a href="https://en.wikipedia.org/wiki/Quantum_University"><i class="fa fa-wikipedia-w"></i></a>
+                <a href="https://www.instagram.com/QuantumUniversity/"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/school/quantum-university-india"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <p>Made With <i class="fa far fa-heart"></i>By Team Revengers</p>    
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- java script for toggle menu -->
+        <script>
+            var navlinks = document.getElementById("navlinks");
+            function hidemenu(){
+                navlinks.style.right = "-200px";
+            }
+            function showmenu(){
+                navlinks.style.right = "0";
+            }
+        </script>
+    </body>
+</html>

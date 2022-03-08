@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with-device-width, initial-scale=1.0">
+        <title>University Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                 <a href=""><img src="img/Qlogo.png" alt=""></a>
+                 <div class="nav-links" id="navlinks">
+                     <i class="fa fa-times" onclick="hidemenu()"></i>
+                     <ul>
+                        <li><a href="univ.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="course.html">Course</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                     </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <h1>About Us</h1>
+        </section>
+        <!-- about us content -->
+        <section class="about-us">
+            <div class="row">
+               <div class="about-col">
+                   <h1>We Are The Best To Teach You For Computer Technology</h1>
+                   <p>The mission of the Department of Computer Science is to advance the knowledge of computer science and technology through education, research, and service for the betterment of society.</p>
+                   <a href="https://quantumuniversity.edu.in/picture-gallery#prettyPhoto[album_4]/31/" class="hero-btn red-btn">EXPLORE NOW</a>
+               </div>
+               <div class="about-col">
+                   <img src="img/about.jpg">
+               </div>
+            </div>
+        </section>
+        
+        <!-- footer  -->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>The mission of the Department of Computer Science is to advance the knowledge of computer science and technology through education,<br> research, and service for the betterment of society.</p>
+            <div class="icons">
+                <a href="https://www.facebook.com/quantumuniversity.edu.in/"><i class="fa fa-facebook"></i></a>
+                <a href="https://en.wikipedia.org/wiki/Quantum_University"><i class="fa fa-wikipedia-w"></i></a>
+                <a href="https://www.instagram.com/QuantumUniversity/"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/school/quantum-university-india"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <p>Made With <i class="fa far fa-heart"></i> By Team Revengers </p>    
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- java script for toggle menu -->
+        <script>
+            var navlinks = document.getElementById("navlinks");
+            function hidemenu(){
+                navlinks.style.right = "-200px";
+            }
+            function showmenu(){
+                navlinks.style.right = "0";
+            }
+        </script>
+    </body>
+</html>

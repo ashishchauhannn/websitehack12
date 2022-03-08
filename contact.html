@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with-device-width, initial-scale=1.0">
+        <title>University Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                 <a href=""><img src="img/Qlogo.png" alt=""></a>
+                 <div class="nav-links" id="navlinks">
+                     <i class="fa fa-times" onclick="hidemenu()"></i>
+                     <ul>
+                        <li><a href="univ.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="course.html">Course</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                     </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <h1>Contact Us</h1>
+        </section>
+
+        <!-- contact for instructor -->
+        <section class="course">
+            <h1>Ask Queries Related From Our Instructor</h1>
+            <p></p> 
+            <div class="row">
+                <div class="course-col">
+                    <h3>Mr Abhishant Sharma</h3>
+                    <p></p><h5><i class='fas fa-phone' style='font-size:24px'></i></h5>9458725642</p>
+                    <p></p><h5>Contact No.:-</h5><a href="mail to:abhishantsharma@gmail.com">abhishantsharma@gmail.com</a></p>
+                    <p><h5>Subject Related</h5>Java Programming,Operating System</p>
+                </div>
+                <div class="course-col">
+                    <h3>Mr Pundrikash</h3>
+                    <p></p><h5>Contact No. :-</h5>9458725668</p>
+                    <p></p><h5>Email Id :-</h5><a href="mail to:pundrikash@gmail.com">pundrikash@gmail.com</a></p>
+                    <p><h5>Subject Related</h5>Java Programming, Android Studio</p>
+                </div>
+                <div class="course-col">
+                    <h3>Mr Yash Kumaar Goel</h3>
+                    <p></p><h5>Contact No. :-</h5>94554525642</p>
+                    <p></p><h5>Email Id :-</h5><a href="mail to:yashkumaargoel@gmail.com">yashkumaargoel@gmail.com</a></p>
+                    <p><h5>Subject Related</h5>Python, Artificial Intelligence,Machine Learning</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Mr Himanshu Tyagi</h3>
+                    <p></p><h5>Contact No. :-</h5>9458725642</p>
+                    <p></p><h5>Email Id :-</h5><a href="mail to:himanshutyagi@gmail.com">himanshutyagi@gmail.com</a></p>
+                    <p><h5>Subject Related</h5>Python</p>
+                </div>
+                <div class="course-col">
+                    <h3>Mr Harsh Kumaar Aarya</h3>
+                    <p></p><h5>Contact No. :-</h5>9458725668</p>
+                    <p></p><h5>Email Id :-</h5><a href="mail to:harshkumaararya@gmail.com">harshkumaararya@gmail.com</a></p>
+                    <p><h5>Subject Related</h5>Java Programming, C++</p>
+                </div>
+                <div class="course-col">
+                    <h3>Mr Kuldeep Pal</h3>
+                    <p></p><h5>Contact No. :-</h5>94554525642</p>
+                    <p></p><h5>Email Id :-</h5><a href="mail to:yashkumaargoel@gmail.com">kuldeeppal@gmail.com</a></p>
+                    <p><h5>Subject Related</h5>Web Development, c, C++</p>
+                </div>
+            </div>
+        </section>
+        <!-- contact us -->
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.9919030163605!2d77.76140241506855!3d30.00838888189559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ec88c479bdbdb%3A0x30485550e6060b54!2z4KSV4KWN4KS14KS-4KSC4KSf4KSuIOCkteCkv-CktuCljeCkteCkteCkv-CkpuCljeCkr-CkvuCksuCkrw!5e0!3m2!1shi!2sin!4v1646690693331!5m2!1shi!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Roorkee-Dehradun Highway (NH-73),</h5>
+                        <p>Roorkee-247667 (Uttarakhand) India</p>
+                    </span>
+                    </div>
+                    <div>
+                    <i class="fa fa-phone"></i>
+                     <span>
+                         <h5>+91 7308080803</h5>
+                        <p>Monday To Saturday, 10AM To 6PM</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-times"></i>
+                        <span>
+                            <h5>faculty@computertech.com</h5>
+                            <p>Email Us Your Querie</p>
+                        </span>
+                        </div>
+                </div>
+                <div class="contact-col">
+
+                    <form action="form-handler.php" method="POST">
+                        <input type="text" name="name" placeholder="Enter Your Name" Required>
+                        <input type="email" name="email" placeholder="Enter Your Email" Required>
+                        <input type="text" name="subject" placeholder="Enter Your Subject" Required>
+                        <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                        <button type="submit" class="hero-btn red-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+        <!-- footer  -->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>The mission of the Department of Computer Science is to advance the knowledge of computer science and technology through education,<br> research, and service for the betterment of society.</p>
+            <div class="icons">
+                <a href="https://www.facebook.com/quantumuniversity.edu.in/"><i class="fa fa-facebook"></i></a>
+                <a href="https://en.wikipedia.org/wiki/Quantum_University"><i class="fa fa-wikipedia-w"></i></a>
+                <a href="https://www.instagram.com/QuantumUniversity/"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/school/quantum-university-india"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <p>Made With <i class="fa far fa-heart"></i>By Team Revengers</p>    
+        </section>
+
+
+
+
+
+
+
+        <!-- java script for toggle menu -->
+        <script>
+            var navlinks = document.getElementById("navlinks");
+            function hidemenu(){
+                navlinks.style.right = "-200px";
+            }
+            function showmenu(){
+                navlinks.style.right = "0";
+            }
+        </script>
+    </body>
+</html>
